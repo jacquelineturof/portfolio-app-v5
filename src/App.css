@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.Page {
+  height: 100vh;
+  width: 100vw;
+  background: url('./Assets//jez-timms-HauxSOFvh6k-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header {
+  height: 30%;
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Header_Name {
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.Header_Description {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.Nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 50%;
+  height: 10%;
+}
+
+.Nav_Link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.5s;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.Nav_Link:hover .hover_animate {
+  transform: scaleY(1);
+}
+
+.Nav_Link:hover {
+  color: black;
+}
+
+.NavLink:hover .link_text {
+  color: black;
+}
+
+.link_text {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover_animate {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  transform: scaleY(0);
+  transition: all 0.5s;
+  transform-origin: top;
+}
+
+.hover_animate:nth-child(2) {
+  left: 25%;
+  transition-delay: 0.15s;
+}
+
+.hover_animate:nth-child(3) {
+  left: 50%;
+  transition-delay: 0.3s;
+}
+
+.hover_animate:nth-child(4) {
+  left: 75%;
+  transition-delay: 0.45s;
+}
