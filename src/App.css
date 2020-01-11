@@ -105,11 +105,7 @@
   transition-delay: 0.45s;
 }
 
-@media only screen and (max-width: 1400px) {
-  .Header_Name {
-    font-size: 3rem;
-  }
-}
+
 
 /*
   ANIMATION COMPONENT
@@ -210,8 +206,6 @@
 */
 
 .Home_Logo {
-  fill: white;
-  stroke: white;
   height: 30%;
   width: 30%;
 }
@@ -222,4 +216,53 @@
 
 .Highlight_1 {
   color: #FFE74C;
+}
+
+/*
+  MEDIA QUERIES
+*/
+
+@media only screen and (max-width: 1400px) {
+  .Header_Name {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .Header_Name {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Header_Name {
+    font-size: 2rem;
+  }
+
+  .Home_Logo {
+    width: 60%;
+    height: 30%;
+  }
+
+  .Header {
+    width: 80%;
+  }
+
+  .Nav {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Header_Name {
+    font-size: 1.5rem;
+  }
+
+  .Header_Description {
+    font-size: 1rem;
+  }
+
+  .Nav_Link {
+    font-size: .9rem;
+  }
 }
