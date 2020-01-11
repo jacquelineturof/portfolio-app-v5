@@ -5,9 +5,7 @@
 .Page {
   height: 100vh;
   width: 100vw;
-  background: url('./Assets//jez-timms-HauxSOFvh6k-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +13,7 @@
 }
 
 .Header {
-  height: 30%;
+  height: 15%;
   width: 50%;
   color: white;
   display: flex;
@@ -105,4 +103,123 @@
 .hover_animate:nth-child(4) {
   left: 75%;
   transition-delay: 0.45s;
+}
+
+@media only screen and (max-width: 1400px) {
+  .Header_Name {
+    font-size: 3rem;
+  }
+}
+
+/*
+  ANIMATION COMPONENT
+*/
+.Animation_Container {
+  height: 20%;
+  width: 50%;
+  position: relative;
+  border: 3px solid yellow;
+  overflow: hidden;
+}
+
+.Streaks {
+  list-style: none;
+}
+
+.Streak {
+  position: relative;
+  border-radius: 2px;
+  width: 80px;
+  height: 2px;
+  overflow: hidden;
+  transform: rotate(-20deg);
+}
+
+.Streak::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, 
+    rgba(255, 255, 255, 0.4) 100%);
+  left: 100%;
+  animation: streak 3.6s linear infinite;
+}
+
+.Streak:nth-child(1) {
+  top: 10px;
+  left: 30px;
+}
+
+.Streak:nth-child(2) {
+  top: 100px;
+  left: 150px;
+ }
+
+.Streak:nth-child(2):after {
+  animation-delay: 1.2s;
+}
+
+.Streak:nth-child(3) {
+  top: 20px;
+  left: 15px;
+}
+
+.Streak:nth-child(3):after {
+  animation-delay: 4s;
+}
+
+.Streak:nth-child(4) {
+  top: 20px;
+  left: 200px;
+ }
+
+ .Streak:nth-child(4):after {
+  animation-delay: 1.7s;
+}
+
+@keyframes streak {
+  20% {
+    left: -100%;
+  }
+  
+  100% {
+    left: -100%;
+  }
+}
+
+/*
+  Second Animation
+*/
+.Box_Animation_Container {
+  height: 30%;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Box {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin: .2rem;
+}
+
+/*
+  Third go
+*/
+
+.Home_Logo {
+  fill: white;
+  stroke: white;
+  height: 30%;
+  width: 30%;
+}
+
+.Highlight {
+  color: #731DD8;
+}
+
+.Highlight_1 {
+  color: #FFE74C;
 }
