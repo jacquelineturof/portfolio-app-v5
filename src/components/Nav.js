@@ -6,14 +6,14 @@ import '../App.css'
 export default function Nav() {
     return (
         <nav className = "Nav">
-            <NavLink to ="/" className = "Nav_Link">
+            <NavLink to ="/about" className = "Nav_Link">
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "link_text">ABOUT</span>
             </NavLink>
-            <NavLink to ="/" className = "Nav_Link">
+            <NavLink to ="/skills" className = "Nav_Link">
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>

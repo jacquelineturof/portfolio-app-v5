@@ -8,7 +8,7 @@ import '../App.css'
 
 export default function Home() {
     return (
-        <section className = "Page">
+        <section className = "Page Center">
             <Animation />
             <MainHeader />
             <Nav />
