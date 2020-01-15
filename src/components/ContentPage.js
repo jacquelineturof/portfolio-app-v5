@@ -7,10 +7,11 @@ import '../App.css'
 
 /*
     A content page wrapper.
+    Children prop is page's content.
 */
 export default function ContentPage({ children }) {
     return (
-        <section className = "Page Top">
+        <section className = "Page Top" >
             <Nav />
             <Header />
             { children }

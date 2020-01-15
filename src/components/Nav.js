@@ -20,14 +20,14 @@ export default function Nav() {
                 <span className = "hover_animate"></span>
                 <span className = "link_text">SKILLS</span>
             </NavLink>
-            <NavLink to ="/" className = "Nav_Link">
+            <NavLink to ="/projects" className = "Nav_Link">
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "link_text">PROJECTS</span>
             </NavLink>
-            <NavLink to ="/" className = "Nav_Link">
+            <NavLink to ="/contact" className = "Nav_Link">
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
                 <span className = "hover_animate"></span>
