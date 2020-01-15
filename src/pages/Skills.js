@@ -7,7 +7,7 @@ import '../App.css'
 
 export default function SkillsPage() {
     return (
-        <ContentPage center = { true }>
+        <ContentPage>
             <Skills />
         </ContentPage>
     )
