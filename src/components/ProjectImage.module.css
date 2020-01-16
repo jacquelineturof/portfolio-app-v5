@@ -1,0 +1,20 @@
+.Image_Container {
+    width: 30%;
+    height: 50%;
+    background-color: green;
+    z-index: 100;
+    position: absolute;
+    transform: translateX(-100%);
+    border-radius: 50%;
+}
+
+.Nasa_Image {
+    background: url('../Assets/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg');
+    background-size: cover;
+}
+
+.Books_Image {
+    background: url('../Assets/toa-heftiba-ip9R11FMbV8-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
