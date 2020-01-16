@@ -1,0 +1,13 @@
+.Project_Button {
+    outline: none;
+    border: none;
+    width: 40%;
+    height: 100%;
+    border-radius: .3rem;
+    color: white;
+    background-color: #731DD8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}

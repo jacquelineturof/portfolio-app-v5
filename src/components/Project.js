@@ -3,6 +3,7 @@ import React from 'react'
 import Image from './ProjectImage'
 import Body from './ProjectBody'
 
+
 import classes from './Project.module.css'
 
 export default function Project({ CSSClass, name, description }) {

@@ -23,4 +23,13 @@
     justify-content: center;
     align-items: center;
     font-family: 'Satisfy', cursive;
+    margin: 0;
+}
+
+.Button_Container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
 }
