@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Button from './UI/Button'
+import Link from './UI/Link'
 
 import classes from './ProjectBody.module.css'
 
@@ -14,9 +14,9 @@ export default function ProjectBody({ name, description }) {
                 { description }
             </p>
             <div className = { classes.Button_Container }>
-                <Button buttonClass = "Project_Button">
-                    Go To
-                </Button>
+                <Link
+                    url = "https://thawing-beyond-21625.herokuapp.com"
+                    label = "Go To" />
             </div>
         </div>
     )

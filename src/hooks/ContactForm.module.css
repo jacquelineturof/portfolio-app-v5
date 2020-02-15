@@ -1,0 +1,32 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 50%;
+}
+
+.Input,
+.TextArea {
+    border: none;
+    outline: none;
+    margin: .2rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #838383;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+
+.Input {
+    height: 20%;
+}
+
+.Input::placeholder,
+.TextArea::placeholder {
+    color: white;
+}
+
+.TextArea {
+    height: 40%;
+}
