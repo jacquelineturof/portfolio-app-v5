@@ -8,9 +8,9 @@ import '../App.css'
 
 export default function About() {
     return (
-            <ContentPage>
-                <Image />
-                <Description />
-            </ContentPage>
+        <ContentPage>
+            <Image />
+            <Description />
+        </ContentPage>
     )
 }

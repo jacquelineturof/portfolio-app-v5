@@ -1,13 +1,13 @@
 import React from 'react'
 
-import '../App.css'
+import classes from './MyImage.module.css'
 
 /*
     About page image
 */
 export default function MyImage() {
     return (
-        <div className = "My_Image">
+        <div className = { classes.My_Image }>
 
         </div>
     )
