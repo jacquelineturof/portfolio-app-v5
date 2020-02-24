@@ -4,7 +4,7 @@ import SVG from '../Assets/iconfinder_Abstract_figure_circles_structure_4472632.
 
 import '../App.css'
 
-export default function HomeAnimation2() {
+export default function HomeSVG() {
     return (
         <img src = { SVG } alt = "home logo" className = "Home_Logo" />
     )

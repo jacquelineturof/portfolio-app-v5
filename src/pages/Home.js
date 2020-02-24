@@ -1,15 +1,15 @@
 import React from 'react'
 
+import SVG from '../components/HomeSVG'
 import MainHeader from '../components/MainHeader'
-import Nav from '../components/Nav'
-import Animation from '../components/HomeAnimation2'
+import Nav from '../components/UI/Nav'
 
 import '../App.css'
 
 export default function Home() {
     return (
         <section className = "Page Center">
-            <Animation />
+            <SVG />
             <MainHeader />
             <Nav />
         </section>

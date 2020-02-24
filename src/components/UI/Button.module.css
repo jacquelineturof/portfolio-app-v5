@@ -26,3 +26,10 @@
     text-transform: uppercase;
     font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 900px) {
+    .Contact {
+        width: 50%;
+    }
+}
+

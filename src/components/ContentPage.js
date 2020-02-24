@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Nav from './Nav'
+import Nav from './UI/Nav'
 import Header from './MainHeader'
 
 import '../App.css'

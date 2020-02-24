@@ -6,13 +6,14 @@ import axios from '../axios-firebase'
 
 import classes from './ContactForm.module.css'
 
-const Input = ({ value, setValue, isTextArea, placeholder }) => {
+const Input = ({ value, setValue, isTextArea, placeholder, type }) => {
     let field = (
         <input 
             value = { value }
             onChange = { e => setValue(e.target.value) }
             placeholder = { placeholder }
-            className = { classes.Input } />
+            className = { classes.Input }
+            type = { type } />
     )
 
     if (isTextArea) {
@@ -59,10 +60,12 @@ export default function ContactForm() {
             <Input 
                 value = { name } 
                 setValue = { setName }
+                type = "text"
                 placeholder = "Your Name" />
             <Input 
                 value = { email } 
                 setValue = { setEmail }
+                type = "email"
                 placeholder = "Your Email" />
             <Input 
                 value = { message } 
