@@ -6,11 +6,14 @@ import Body from './ProjectBody'
 
 import classes from './Project.module.css'
 
-export default function Project({ CSSClass, name, description }) {
+export default function Project({ CSSClass, name, description, url }) {
     return (
         <div className = { classes.Project }>
             <Image CSSClass = { CSSClass } />
-            <Body name = { name } description = { description } />
+            <Body 
+                name = { name } 
+                description = { description }
+                url = { url } />
         </div>
     )
 }

@@ -17,3 +17,9 @@
     background-size: cover;
     background-position: center;
 }
+
+.Weather_Image {
+    background: url('../Assets/max-larochelle-uu-Jw5SunYI-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}

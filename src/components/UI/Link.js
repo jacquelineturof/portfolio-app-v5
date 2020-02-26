@@ -10,6 +10,7 @@ import classes from './Link.module.css'
         label => the label for the link
 */
 export default function Link({ url, label }) {
+    console.log(url)
     return (
         <a 
             target = "_blank"
