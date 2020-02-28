@@ -15,7 +15,7 @@ const PROJECTS = [
         class: 'Books_Image', 
         name: 'Book List Manager', 
         description: "A interface to help a user keep track of their reading last.",
-        url: 'https://google.com'
+        url: 'https://turof-book-app.herokuapp.com/'
     },
     {
         class: 'Weather_Image',
