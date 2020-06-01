@@ -9,7 +9,7 @@ const PROJECTS = [
         class: 'Nasa_Image', 
         name: 'Nasa Image Viewer', 
         description: "A UI connected to NASA's backend database.",
-        url: 'https://thawing-beyond-21625.herokuapp.com'
+        url: 'https://intense-falls-62836.herokuapp.com/'
     },
     { 
         class: 'Books_Image', 
