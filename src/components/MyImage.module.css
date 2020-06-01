@@ -1,15 +1,15 @@
 .My_Image {
-    width: 30%;
-    height: 30%;
-    border-radius: 50%;
-    margin: 4rem;
-    background: url('../Assets/20180731_180858.jpg');
-    background-position: center;
-    background-size: cover;
-    transform: rotate(-90deg);
+  width: 20%;
+  height: 70%;
+  border-radius: 50%;
+  margin: 2rem;
+  background: url('../Assets/jackie.png');
+  background-position: center;
+  background-size: cover;
+  /* transform: rotate(-90deg); */
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
     .My_Image {
       width: 20%;
     }
@@ -26,4 +26,4 @@
       width: 50%;
       border-radius: 30%;
     }
-}
+} */
